@@ -1,0 +1,4 @@
+AuthName "Connexion CMS"
+AuthType Basic
+AuthUserFile "/home/cbon/public_html/CMS/.htpasswd"
+Require valid-user
