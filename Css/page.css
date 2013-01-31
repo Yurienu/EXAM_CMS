@@ -1,0 +1,120 @@
+/* Partie gauche */
+#content1
+{
+  background-color: cyan;
+  float: left;
+  width: 70%;
+}
+
+#content1 #left_text
+{
+  padding: 5px 5px;
+  text-align: justify;
+  min-height: 15px;
+}
+
+#content1 #presentation
+{
+  padding-right: 5px;
+  height: 100%;
+}
+
+/* Partie droite */
+aside
+{
+  padding: 5px 5px;
+  background-color: yellow;
+  margin-left: 70%;
+}
+
+aside h2.artitle
+{
+  padding-top: 5px;
+  text-align: center;
+  min-height: 15px;
+}
+
+aside article
+{
+  padding-bottom: 10px;
+  text-align: justify;
+  min-height: 15px;
+}
+
+/* Croix de fermeture */
+p.close_cross
+{
+  float: right;
+  padding: 0!important
+}
+
+.close_cross button
+{
+  background-image: url('../Img/close.png');
+  width: 20px;
+  height: 16px;
+  border: 0;
+}
+
+/* Modification de texte */
+#textbox
+{
+  display: none;
+  position: absolute;
+  left: 5%;
+  top: 30%;
+  width: 90%;
+  border: 1px solid #444;
+  background-color: white; 
+  height: 40%;
+}
+
+#textbox textarea
+{
+  width: 98%;
+  height: 13em;
+}
+
+/* Modification de section (contenu) */
+#sectionbox
+{
+  display: none;
+  position: absolute;
+  /* Position définie plus tard */
+  width: 30%;
+  border: 1px solid #444;
+  background-color: white;
+  height: 15em;
+}
+
+#sectionbox textarea
+{
+  width: 98%;
+  height: 10em;
+}
+
+/* Modification de titre */
+#titlebox
+{
+  display: none;
+  position: absolute;
+  /* Position définie plus tard */
+  width: 30%;
+  border: 1px solid #444;
+  background-color: white;
+}
+
+#titlebox input[type='text']
+{
+  margin: 0.5em 0;
+  width: 50%;
+}
+
+#imgbox
+{
+  display: none;
+  position: absolute;
+  /* Position définie plus tard */
+  border: 1px solid #444;
+  background-color: white;
+}
